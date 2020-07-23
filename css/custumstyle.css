@@ -1,0 +1,256 @@
+body
+{
+font-family: 'Fondamento', cursive;
+font-size: 20px;
+	color: darkblue !important;
+background-color: #e6ffff;
+}
+.lead
+{
+	height: 200px;
+}.nav-link:hover
+{
+font-size: 25px;
+}
+.backgtop
+{
+	background-color: #000099 !important;
+
+}
+.nav-item
+{
+	width: 100px;
+	font-size: 15px;
+    width: max-content;}
+
+.fontsize
+{
+	font-size: 30px;
+	color:  #ff0000 !important;
+
+}
+.baloon
+{
+	position: absolute;
+right: 70px;
+bottom:-1200px;
+ animation: ballon 5s infinite;
+	}
+	@keyframes ballon
+	{
+		from {right: 70px; bottom:-1200px;}
+		to {right: 70px; bottom:-800px;}
+	}
+	.memberenmation
+	{
+		animation: moveim 10s infinite;
+	}
+	@keyframes moveim
+	{
+		0%{margin-left: 0%;}
+		25%{margin-left:20%;}
+		50%{margin-left: 50%;}
+		75%{margin-left: 95%;}
+		100%{margin-left: 0%;}
+	}
+	.imaganimation
+	{
+		position: absolute;
+		right: 0px;
+		top:230px;
+		z-index: -1;
+		opacity: 0.5;
+		animation: opcity 2s infinite;
+	}
+	@keyframes opcity
+	{
+		from { opacity: 0.5; }
+		to{opacity: 1; }
+	}
+.enimationmap
+{
+	  box-shadow: 5px 10px 8px 10px #888888;
+	  border-radius: 5%;
+	  animation: big 3s infinite;
+
+}
+.imabout
+{
+  box-shadow: 5px 10px 8px 10px #888888;
+
+}
+.linkmore
+{
+	color:#ff0000;
+	text-decoration: none; 
+}
+.linkmore:hover
+{
+	color:#ff0000;
+	text-decoration: none; 
+}
+
+@keyframes border-image: {
+	from{transform:scale(0)}
+	to {transform: scale(2);}
+}
+.enimationmap:hover
+{
+	animation-play-state: paused;
+}
+.fontcolor
+{
+	color:  #ff0000 !important;
+}
+.backgmin
+{
+	background-color:  #ff0000 !important;
+	border-color:  #ff0000 !important;
+}
+.backgmin:hover
+{
+	background-color: #320136;
+	border-color: #320136;
+}
+.backg
+{
+	background-color:  #99ffcc !important;
+}
+.logosize
+{
+	width: 125px;
+	height: 125px;
+	animation: logo 2s infinite;
+}
+@keyframes logo
+{
+	from {transform: rotateY(0deg);}
+	to{transform: rotateY(360deg);}
+}
+.logosize:hover
+{
+	animation-play-state: paused;
+}
+.gift
+{
+	animation: logo 2s infinite;
+}
+.gift:hover
+{
+	animation-play-state: paused;
+}
+.fa-star
+{
+	animation: logo 2s infinite;
+
+}
+.fa-star:hover
+{
+	animation-play-state: paused;
+
+}
+.backgs
+{
+	background-color: #1abc9c !important;
+}
+.backgabout
+{
+	/*background-color: #1abc9c !important;*/
+}
+.backimg
+{
+	background-image: url(../images/slider.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+.iconhover:hover
+{
+color: #000 !important;
+}
+.btns
+{
+	background-color: #148f77 ;
+    border-color: #12846e;
+}
+.btns:hover
+{
+	background-color: #148f77 ;
+    border-color: #12846e;
+}
+.footerbak
+{
+	background-color: #2c3e50 !important;
+}
+.fontsizef
+{
+	font-size: 31px;
+
+}
+.fontsizef:hover
+{
+color: #000;
+background-color: #fff;	
+}
+.btn-social
+{
+	border-radius: 100%;
+	vertical-align: unset!important;
+}
+.footercopy
+{
+	background-color: #1a252f !important;
+}
+.linka
+{
+	color: #1abc9c !important;
+}
+.rotet
+{
+  -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+.imaground
+{
+	    border-radius: 1.25rem !important;
+	        width: 350px !important;
+    height: 280px !important;
+
+}
+.imagroundp
+{
+	width: 150px;
+	height: 100px;
+	border-radius: 1.25rem !important;
+	animation:scal 3s infinite;
+}
+@keyframes scal
+{
+	from {transform:scale(0);}
+	to {transform: scale(1);}
+}
+.rent
+{
+	margin: 100px;
+	animation: bigbtn 3s infinite;
+}
+@keyframes bigbtn
+{
+	from{transform: scale(1);}
+	to{transform: scale(2);}
+}
+.rent:hover
+{
+	animation-play-state: paused;
+}
+.imagroundp:hover
+{
+	animation-play-state: paused;
+}
+.maxheight
+{
+	height: fit-content;
+
+}
